@@ -45,8 +45,6 @@ function game(){
         console.log('Round ' + roundNumber);
         let round = playRound();
         if (round === 'tie'){console.log('No points for anyone');
-        console.log('Computer has ' + computerPoints + ' points.');
-        console.log('Player has ' + playerPoints + ' points.')
         } else if (round === 'computerPoint'){
             computerPoints++;
         } else if (round === 'playerPoint') {
