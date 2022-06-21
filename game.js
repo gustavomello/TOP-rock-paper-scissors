@@ -49,13 +49,11 @@ function game(){
         console.log('Player has ' + playerPoints + ' points.')
         } else if (round === 'computerPoint'){
             computerPoints++;
-            console.log('Computer has ' + computerPoints + ' points.');
-            console.log('Player has ' + playerPoints + ' points.')
         } else if (round === 'playerPoint') {
             playerPoints++;
-            console.log('Computer has ' + computerPoints + ' points.');
-            console.log('Player has ' + playerPoints + ' points.')
         }
+        console.log('Computer has ' + computerPoints + ' points.');
+        console.log('Player has ' + playerPoints + ' points.')
 
     }
     if (playerPoints === computerPoints) {console.log("The final winner is... nobody.")
