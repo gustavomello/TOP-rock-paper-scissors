@@ -7,6 +7,7 @@ function computerChose() {
 }
 function playerChose(){
     let choice = prompt("Chose Rock, Paper or Scissors");
+    if (choice === null) {return}
     choice = choice.toLowerCase()
     if (choice === 'rock') {return 'Rock'} else if
     (choice === 'paper') {return 'Paper'} else if
